@@ -1,0 +1,216 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #575757, #575757);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.form-container {
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.input-rounded, .btn-rounded {
+    width: 100%;
+    margin-bottom: 15px; /* Jarak antar elemen */
+    padding: 2px; /* Menambah padding untuk membuat elemen lebih besar */
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.input-rounded:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+h4.text-center.font-weight-bold {
+    margin-bottom: 40px; /* Jarak antara judul dan form */
+    color: #333;
+    text-align: center;
+}
+
+.btn-rounded {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-rounded:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-register {
+    margin-top: -15px; /* Mengurangi jarak antara tombol Sign In dan Register */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Tambahkan jarak di bawah setiap kolom input */
+}
+
+.btn-rounded {
+    margin-bottom: 20px; /* Tambahkan jarak di bawah tombol Sign In */
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Adding a shadow around the entire container */
+    border: 1px solid #ccc; /* Adding a border around the entire container */
+    border-radius: 20px; /* Making corners rounded */
+    overflow: hidden; /* Ensures that the image and form stay within the rounded corners */
+    background-color: #ffffff;
+}
+
+.login-image img {
+	width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-left: 1px solid #ccc; /* Optional: add a border between form and image */
+}
+
+.form-container {
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+h2.text-center {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px; /* Mengubah sudut menjadi oval */
+    border: 2px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.btn-primary, .btn-register {
+    width: 100%;
+    padding: 7px 0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50px; /* Mengubah tombol menjadi oval */
+}
+
+.form-container {
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+
+.btn-primary {
+    background-color: #929292;
+    border-color: #000000;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover{
+    background-color: #929292;
+    border-color: #000000;
+}
+
+.btn-register {
+    background-color: #929292;
+    border-color: #ffffff;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px; /* Tambahkan jarak di bawah setiap kolom input */
+}
+
+.text-center {
+    margin-bottom: 60px; /* Tambahkan jarak antara heading dan kolom input */
+}
+
+.btn-primary {
+    margin-top: 20px; /* Tambahkan jarak di atas tombol LOGIN */
+    margin-bottom: 10px; /* Tambahkan jarak di bawah tombol LOGIN */
+}
+
+.btn-register {
+    margin-top: 10px; /* Tambahkan jarak di atas tombol REGISTER */
+}
+
+.form-footer .d-flex {
+    gap: 10px; /* Tambahkan jarak antara tombol */
+}
+
+.btn-block {
+    flex: 1; /* Agar kedua tombol memiliki ukuran yang sama */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Menyebarkan tombol ke kiri dan kanan */
+    gap: 10px; /* Jarak antara tombol jika diperlukan */
+}
+
+.btn-primary, .btn-register {
+    flex: 1; /* Membuat tombol memanjang untuk mengisi ruang yang tersedia */
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50px; /* Mengubah tombol menjadi oval */
+}
